@@ -1,7 +1,5 @@
 /* All Media Queries  */
 
-
-
 /* For Desktop Menu */
 @media (max-width: 960px) {
   /* Hide menu for desktop */
@@ -10,11 +8,11 @@
   }
   /* Show mobile menus */
 
-  .mobile-only{
+  .mobile-only {
     display: block;
   }
   /* Falcon 9 */
-  .inner-section-center{
+  .inner-section-center {
     width: 80%;
   }
 
@@ -29,23 +27,21 @@
 
 /* Mobile menu */
 @media (max-width: 600px) {
-
-  .inner-section{
-    left:20px;
+  .inner-section {
+    left: 20px;
     bottom: 75px;
-    width:100vw;
+    width: 100vw;
     max-width: 160px;
-    
   }
 
   .main-nav-menu {
     /* display: none; */
   }
-  
-  .mobile-main-menu{
+
+  .mobile-main-menu {
     right: 0;
     top: 0;
-    
+
     position: fixed;
   }
 
@@ -69,23 +65,19 @@
     margin-right: 15px;
   }
 
-
-  .logo{
+  .logo {
     width: 150px;
-    margin:auto ;
+    margin: auto;
   }
 
-
-  .logoImg{
+  .logoImg {
     width: 80%;
     display: block;
     height: auto;
   }
 
-
-
   /* Falcon 9 */
-  .inner-section-center{
+  .inner-section-center {
     width: 80%;
   }
 
@@ -93,14 +85,40 @@
     font-size: 50px;
   }
 
-/* Stats */
+  /* Stats */
 
-  .stats{
+  .stats {
     flex-direction: column;
   }
 
-
-  .stats div{
+  .stats div {
     margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .inner-section {
+    left: 26px;
+    bottom: 75px;
+    width: 100vw;
+    max-width: 110px;
+    text-align: center;
+  }
+  .inner-section  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner-section h2 {
+    font-size: 16px;
+    inline-size: 280px;
+  }
+
+  .btn {
+  
+    max-width: 130px;
+    padding: 15px 15px;
+   
   }
 }
